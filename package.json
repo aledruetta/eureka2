@@ -6,6 +6,9 @@
   "repository": "git@github.com:aledruetta/eureka2.git",
   "author": "Alejandro Druetta <aledruetta@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "jest": "^20.0.4",
