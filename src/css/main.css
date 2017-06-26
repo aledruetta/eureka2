@@ -1,3 +1,6 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
 .navbar {
   margin-bottom: 0;
 }
@@ -7,19 +10,43 @@
   color: #fff;
 }
 
-.logo {
-  width: 800px;
-  max-width: 90%;
+.jumbotron__logo,
+.jumbotron__subtitle,
+.jumbotron__button {
+  max-width: 800px;
+}
+
+.jumbotron__logo {
   margin: 0 auto;
 }
 
-.anounce-title {
+.jumbotron__subtitle {
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  color: #AACD46;
+}
+
+.jumbotron__button {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+
+.anounce__title {
   font-size: 2rem;
   font-weight: bold;
   color: rgb(73, 73, 73);
 }
 
 @media screen AND (min-width: 992px) {
+  .jumbotron__button {
+    font-size: 2rem;
+    padding: 1.6rem 3rem;
+  }
+  .jumbotron__subtitle {
+    font-size: 2.5rem;
+  }
   .anounce-title {
     font-size: 1.8rem;
   }
