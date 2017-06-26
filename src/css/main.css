@@ -8,6 +8,7 @@ body {
 .jumbotron {
   background-color: #363435;
   color: #fff;
+  margin-bottom: 0;
 }
 
 .jumbotron__logo,
@@ -33,10 +34,23 @@ body {
   padding: 1rem 2rem;
 }
 
+.aside--left {
+  background-color: #f6f6f6;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .anounce__title {
   font-size: 2rem;
   font-weight: bold;
   color: rgb(73, 73, 73);
+}
+
+@media screen AND (min-width: 768px) {
+  .jumbotron {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen AND (min-width: 992px) {
@@ -47,7 +61,13 @@ body {
   .jumbotron__subtitle {
     font-size: 2.5rem;
   }
-  .anounce-title {
+  .anounce__title {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen AND (min-width: 1200px) {
+  .anounce__title {
     font-size: 1.8rem;
   }
 }
