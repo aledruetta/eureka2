@@ -55,10 +55,18 @@ body {
   border-radius: 4px 4px 0 0;
 }
 
+.anounce .caption {
+  padding: 1.5rem;
+}
+
 .anounce__title {
   font-size: 2rem;
   font-weight: bold;
   color: rgb(73, 73, 73);
+}
+
+.anounce__p-btn {
+  margin: 0;
 }
 
 @media screen AND (min-width: 768px) {
