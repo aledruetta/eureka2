@@ -34,16 +34,15 @@ body {
   padding: 1rem 2rem;
 }
 
-.aside--left {
+.search-bar {
   background-color: #fcf8e3;
   margin-bottom: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-radius: 4px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.form-search__btn--submit {
-  margin-top: 0.5rem;
+.search-bar__form .form-group {
+  margin-right: 0.5rem;
 }
 
 .anounce {
@@ -63,9 +62,6 @@ body {
 }
 
 @media screen AND (min-width: 768px) {
-  .jumbotron {
-    margin-bottom: 30px;
-  }
 }
 
 @media screen AND (min-width: 992px) {
