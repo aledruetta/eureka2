@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar {
   margin-bottom: 0;
@@ -56,16 +56,25 @@ body {
 }
 
 .anounce .caption {
-  padding: 1.5rem;
+  padding: 0;
+  padding-bottom: 1rem;
 }
 
 .anounce__title {
   font-size: 2rem;
-  font-weight: bold;
-  color: rgb(73, 73, 73);
+  font-weight: 700;
+  background-color: #a94442;
+  color: #f5f5f5;
+  padding: 1rem;
+  margin-top: 0;
+  text-align: center;
 }
 
-.anounce__p-btn {
+.anounce__p--descrip {
+  padding: 1rem;
+}
+
+.anounce__p--btn {
   margin: 0;
 }
 
