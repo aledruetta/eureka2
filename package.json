@@ -31,6 +31,6 @@
     "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1",
     "w3cjs": "^0.3.0",
-    "knockout": "^3.4.2"
+    "knockout": "^3.5.0"
   }
 }
